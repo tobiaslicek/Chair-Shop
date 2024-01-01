@@ -47,7 +47,7 @@ header {
 .special-columns h3 {
   margin-bottom: 20px;
   font-weight: bold;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .customers {
@@ -75,4 +75,48 @@ q {
 
 blockquote {
   font-style: italic;
+}
+
+.heading-bestsellers {
+  margin-bottom: 48px;
+}
+
+.bestsellers h3 {
+  margin-bottom: 24px;
+}
+
+.bestsellers img {
+  margin-bottom: 24px;
+  width: 267px;
+}
+
+.bestsellers-column {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.laidback,
+.worker,
+.chair {
+  width: 267px;
+}
+
+span {
+  display: block;
+  margin-bottom: 24px;
+}
+
+.buy {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  font-weight: bold;
+  /* font-size: 16px; */
+}
+
+footer {
+  margin-bottom: 48px;
 }
