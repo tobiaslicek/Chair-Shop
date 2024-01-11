@@ -55,6 +55,7 @@ h2 {
   text-transform: uppercase;
   display: inline-block;
   font-weight: 500;
+  border-radius: 100px;
 }
 
 .btn:hover,
@@ -70,6 +71,11 @@ h2 {
 .btn--small {
   font-size: 14px;
   padding: 8px 12px;
+  display: inline-block
+}
+
+img {
+  border-radius: 7px;
 }
 
 /* ------------------------ */
@@ -128,6 +134,7 @@ img {
   background-color: #087f5b;
   color: #fff;
   padding: 24px;
+  border-radius: 7px;
 }
 
 .testimonial-box {
@@ -150,6 +157,12 @@ img {
 /* CHAIRS */
 .chair {
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.07);
+  border-radius: 7px;
+}
+
+.chair img {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .chair-box {
@@ -186,6 +199,7 @@ h3 {
 .chair-price {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-size: 20px;
 }
 
